@@ -7,6 +7,8 @@ import Footer from "../componentes/Footer";
 import { Link } from "react-router-dom";
 import Tarjeta_Info_Producto from "../componentes/Tarjeta_Info_Producto";
 import Mas_Del_Vendedor from "../componentes/Mas_Del_Vendedor";
+import Formu_Resenas from "../componentes/Formu_Resenas";
+import Resenas from "../componentes/Resenas";
 
 const Info_Producto = () => {
 
@@ -28,6 +30,21 @@ const Info_Producto = () => {
                 <div>
                     <Tarjeta_Info_Producto/>
                     <Mas_Del_Vendedor/>
+
+                    <p>Opiniones</p>
+
+                    <div className="caja_resenas">
+
+                        <Formu_Resenas/>
+
+                        <div>
+                            <p>5.0</p>
+                            <p>★★★★★</p>
+                        </div>
+
+                        <Resenas/>
+                        <Resenas/>  
+                    </div>
                 </div>
             </div>
 
